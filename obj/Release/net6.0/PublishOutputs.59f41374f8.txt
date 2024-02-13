@@ -1,9 +1,0 @@
-C:\Users\IBSTE04\source\repos\Conexion(USB)\bin\Release\net6.0\publish\Conexion(USB).exe
-C:\Users\IBSTE04\source\repos\Conexion(USB)\bin\Release\net6.0\publish\Conexion(USB).dll
-C:\Users\IBSTE04\source\repos\Conexion(USB)\bin\Release\net6.0\publish\Conexion(USB).deps.json
-C:\Users\IBSTE04\source\repos\Conexion(USB)\bin\Release\net6.0\publish\Conexion(USB).runtimeconfig.json
-C:\Users\IBSTE04\source\repos\Conexion(USB)\bin\Release\net6.0\publish\Conexion(USB).pdb
-C:\Users\IBSTE04\source\repos\Conexion(USB)\bin\Release\net6.0\publish\SevenZip.dll
-C:\Users\IBSTE04\source\repos\Conexion(USB)\bin\Release\net6.0\publish\SevenZipSharp.dll
-C:\Users\IBSTE04\source\repos\Conexion(USB)\bin\Release\net6.0\publish\SharpCompress.dll
-C:\Users\IBSTE04\source\repos\Conexion(USB)\bin\Release\net6.0\publish\SharpCompressWrapper.dll
