@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "dgSpecHash": "T7ju1Td4W0L26V1ax0z1vBl+mMaiTLkGQU7FXGgmydRt9KwkjxpskoDiquWNWF+H+cyu18S86U5XfKLaAVpKNA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\IBSTE04\\source\\repos\\Conexion(USB)\\Conexion(USB).csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\IBSTE04\\.nuget\\packages\\sevenzip\\19.0.0\\sevenzip.19.0.0.nupkg.sha512",
+    "C:\\Users\\IBSTE04\\.nuget\\packages\\sevenzipsharp\\0.64.0\\sevenzipsharp.0.64.0.nupkg.sha512",
+    "C:\\Users\\IBSTE04\\.nuget\\packages\\sevenzipsharp.interop\\19.0.2\\sevenzipsharp.interop.19.0.2.nupkg.sha512",
+    "C:\\Users\\IBSTE04\\.nuget\\packages\\sevenzipsharp.net45\\1.0.19\\sevenzipsharp.net45.1.0.19.nupkg.sha512",
+    "C:\\Users\\IBSTE04\\.nuget\\packages\\sharpcompress\\0.33.0\\sharpcompress.0.33.0.nupkg.sha512",
+    "C:\\Users\\IBSTE04\\.nuget\\packages\\sharpcompresswrapper\\1.0.0\\sharpcompresswrapper.1.0.0.nupkg.sha512",
+    "C:\\Users\\IBSTE04\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.14\\microsoft.netcore.app.runtime.win-x86.6.0.14.nupkg.sha512",
+    "C:\\Users\\IBSTE04\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.14\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.14.nupkg.sha512",
+    "C:\\Users\\IBSTE04\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.14\\microsoft.aspnetcore.app.runtime.win-x86.6.0.14.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"SevenZipSharp 0.64.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "SevenZipSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"SevenZipSharp.Net45 1.0.19\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "SevenZipSharp.Net45",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

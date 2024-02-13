@@ -1,0 +1,345 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "SevenZip/19.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SevenZip.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SevenZip.dll": {}
+        }
+      },
+      "SevenZipSharp/0.64.0": {
+        "type": "package",
+        "compile": {
+          "lib/SevenZipSharp.dll": {}
+        },
+        "runtime": {
+          "lib/SevenZipSharp.dll": {}
+        }
+      },
+      "SevenZipSharp.Interop/19.0.2": {
+        "type": "package",
+        "dependencies": {
+          "SevenZipSharp": "0.64.0"
+        },
+        "build": {
+          "build/SevenZipSharp.Interop.targets": {}
+        }
+      },
+      "SevenZipSharp.Net45/1.0.19": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SevenZipSharp.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net45/SevenZipSharp.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SharpCompress/0.33.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SharpCompress.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/SharpCompress.dll": {}
+        }
+      },
+      "SharpCompressWrapper/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpCompress": "0.18.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SharpCompressWrapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpCompressWrapper.dll": {}
+        }
+      }
+    },
+    "net6.0/win-x86": {
+      "SevenZip/19.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SevenZip.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SevenZip.dll": {}
+        }
+      },
+      "SevenZipSharp/0.64.0": {
+        "type": "package",
+        "compile": {
+          "lib/SevenZipSharp.dll": {}
+        },
+        "runtime": {
+          "lib/SevenZipSharp.dll": {}
+        }
+      },
+      "SevenZipSharp.Interop/19.0.2": {
+        "type": "package",
+        "dependencies": {
+          "SevenZipSharp": "0.64.0"
+        },
+        "build": {
+          "build/SevenZipSharp.Interop.targets": {}
+        }
+      },
+      "SevenZipSharp.Net45/1.0.19": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SevenZipSharp.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net45/SevenZipSharp.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SharpCompress/0.33.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SharpCompress.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/SharpCompress.dll": {}
+        }
+      },
+      "SharpCompressWrapper/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpCompress": "0.18.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SharpCompressWrapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpCompressWrapper.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SevenZip/19.0.0": {
+      "sha512": "+Eeb/uvC0REvMlG1auBqlBMiFiPZs+WizlLroHPSKtBh/V7NR/qOocgk+/7S0lNzciYsurMCeJzUL7LYIqVnWw==",
+      "type": "package",
+      "path": "sevenzip/19.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/SevenZip.dll",
+        "lib/netstandard2.0/SevenZip.dll",
+        "pack-package.cmd",
+        "publish-package.cmd",
+        "sevenzip.19.0.0.nupkg.sha512",
+        "sevenzip.nuspec"
+      ]
+    },
+    "SevenZipSharp/0.64.0": {
+      "sha512": "CbjNb+ZcJWzoRM4uA+UXEklUwu2Fm+zbo6FNB8emaQFpJUlliwTDVl4vs6/PbFiGygRMvv30yKwCMVZJeMx4KA==",
+      "type": "package",
+      "path": "sevenzipsharp/0.64.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/SevenZipSharp.dll",
+        "sevenzipsharp.0.64.0.nupkg.sha512",
+        "sevenzipsharp.nuspec"
+      ]
+    },
+    "SevenZipSharp.Interop/19.0.2": {
+      "sha512": "oBirjJQcbrgiJ02U71Q5EWcEkyiwObOatv7S6K43CcZR8m0BAD6EDrr7OqsbR1gYw9S11ozLKknM8di+6wd8Mg==",
+      "type": "package",
+      "path": "sevenzipsharp.interop/19.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/SevenZipSharp.Interop.targets",
+        "build/x64/7z.dll",
+        "build/x86/7z.dll",
+        "sevenzipsharp.interop.19.0.2.nupkg.sha512",
+        "sevenzipsharp.interop.nuspec"
+      ]
+    },
+    "SevenZipSharp.Net45/1.0.19": {
+      "sha512": "id1Y29NDy81uMBWNoOXuYpeC99VyU0T+xxmQVW19uz0xa28f2xcQlzQT8KL3G1VEh9VhgWXaYdcQu9Fuzzf1XA==",
+      "type": "package",
+      "path": "sevenzipsharp.net45/1.0.19",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/SevenZipSharp.dll",
+        "lib/net45/SevenZipSharp.pdb",
+        "sevenzipsharp.net45.1.0.19.nupkg.sha512",
+        "sevenzipsharp.net45.nuspec"
+      ]
+    },
+    "SharpCompress/0.33.0": {
+      "sha512": "FlHfpTAADzaSlVCBF33iKJk9UhOr3Xj+r5LXbW2GzqYr0SrhiOf6shLX2LC2fqs7g7d+YlwKbBXqWFtb+e7icw==",
+      "type": "package",
+      "path": "sharpcompress/0.33.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/SharpCompress.dll",
+        "lib/net6.0/SharpCompress.dll",
+        "lib/net7.0/SharpCompress.dll",
+        "lib/netstandard2.0/SharpCompress.dll",
+        "lib/netstandard2.1/SharpCompress.dll",
+        "sharpcompress.0.33.0.nupkg.sha512",
+        "sharpcompress.nuspec"
+      ]
+    },
+    "SharpCompressWrapper/1.0.0": {
+      "sha512": "182RqzwYFR6dK/n+/4MfzDd2yIylwBlKu8iYbS+5s75W6QxAih/ZyqMbGFy5O315Bu28Kgrp5WGGbifKfUSVHA==",
+      "type": "package",
+      "path": "sharpcompresswrapper/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SharpCompressWrapper.dll",
+        "sharpcompresswrapper.1.0.0.nupkg.sha512",
+        "sharpcompresswrapper.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "SevenZip >= 19.0.0",
+      "SevenZipSharp.Interop >= 19.0.2",
+      "SevenZipSharp.Net45 >= 1.0.19",
+      "SharpCompress >= 0.33.0",
+      "SharpCompressWrapper >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\IBSTE04\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\IBSTE04\\source\\repos\\Conexion(USB)\\Conexion(USB).csproj",
+      "projectName": "Conexion(USB)",
+      "projectPath": "C:\\Users\\IBSTE04\\source\\repos\\Conexion(USB)\\Conexion(USB).csproj",
+      "packagesPath": "C:\\Users\\IBSTE04\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\IBSTE04\\source\\repos\\Conexion(USB)\\obj\\publish\\win-x86\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\IBSTE04\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "SevenZip": {
+            "target": "Package",
+            "version": "[19.0.0, )"
+          },
+          "SevenZipSharp.Interop": {
+            "target": "Package",
+            "version": "[19.0.2, )"
+          },
+          "SevenZipSharp.Net45": {
+            "target": "Package",
+            "version": "[1.0.19, )"
+          },
+          "SharpCompress": {
+            "target": "Package",
+            "version": "[0.33.0, )"
+          },
+          "SharpCompressWrapper": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+            "version": "[6.0.14, 6.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x86",
+            "version": "[6.0.14, 6.0.14]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
+            "version": "[6.0.14, 6.0.14]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"SevenZipSharp 0.64.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "SevenZipSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"SevenZipSharp.Net45 1.0.19\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "SevenZipSharp.Net45",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

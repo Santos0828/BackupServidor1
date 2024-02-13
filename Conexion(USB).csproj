@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Conexion_USB_</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SevenZip" Version="19.0.0" />
+    <PackageReference Include="SevenZipSharp.Interop" Version="19.0.2" />
+    <PackageReference Include="SevenZipSharp.Net45" Version="1.0.19" />
+    <PackageReference Include="SharpCompress" Version="0.33.0" />
+    <PackageReference Include="SharpCompressWrapper" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
